@@ -7,25 +7,33 @@ const AppNav = () => {
     <nav className="nav">
 
         <input type="checkbox" id="nav" className="nav--hidden"></input>
-        <div className="nav__menu--wrapper">
+        <div className="nav__menu">
             <label htmlFor="nav" className="nav__menu--button">
-                <i></i>
-                <i></i>
-                <i></i> 
+                <i className="nav__menu--icon"></i>
+                <i className="nav__menu--icon"></i>
+                <i className="nav__menu--icon"></i> 
             </label>
+            <img className="nav__menu__logo" src="images/roadtohirelogo-white.png" alt=""/>
         </div>
 
-        <div className="nav__logo--wrapper">
-            <img className="nav__logo" src="images/roadtohirelogo-white.png" alt=""/>
-        </div>
+        <img className="nav__logo" src="images/roadtohirelogo-white.png" alt=""/>
 
-        <div className="nav__list--wrapper">
-            <ul className="nav__list__ul">
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Home</a></li>
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Your Career</a></li>
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Core Values</a></li>
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Our Stories</a></li>
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Apply</a></li>
+        <div className="nav__list">
+            <ul className="nav__list--wrapper">
+                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Home</a></li>
+                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Your Career</a></li>
+                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Core Values</a></li>
+                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Our Stories</a></li>
+                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Apply</a></li>
+
+                <li className="nav__list--item hidden"><a className="nav__list--link nav--highlight" href="https://www.roadtohire.org/">JCSU</a></li>
+                <li className="nav__list--item hidden"><a className="nav__list--link nav--highlight" href="https://www.roadtohire.org/">FAQ</a></li>
+               
+            </ul>
+
+            <ul className="nav__extra">
+                <li className="nav__extra--item"><a className="nav__extra--link nav--highlight" href="https://www.roadtohire.org/">JCSU</a></li>
+                <li className="nav__extra--item"><a className="nav__extra--link nav--highlight" href="https://www.roadtohire.org/">FAQ</a></li>
             </ul>
         </div>
 
