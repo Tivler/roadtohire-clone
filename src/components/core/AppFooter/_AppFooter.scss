@@ -1,5 +1,5 @@
 .footer {
-    padding: 5% 0 0 0;
+    padding: 5% 0 3% 0;
     background-color: #fff;
     color: rgba(8,27,51,.8);
     font-family: 'Montserrat';
@@ -21,6 +21,47 @@
 
     &__nav {
 
+        &__list {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin-bottom: 1%;
+        }
+
+        &--item {
+            list-style-type: none;
+
+            &:first-child {
+                padding-right: 25px;
+            }
+
+            &:nth-child(2){
+                padding-right: 25px;
+            }
+
+            &:nth-child(3){
+                padding-right: 25px;
+            }
+
+            &:nth-child(4){
+                padding-right: 25px;
+            }
+
+            &:nth-child(5){
+                padding-right: 25px;
+            }
+        }
+
+        &--link {
+            font-size: .9em;
+            line-height: 1.5;
+            color:rgba(8,27,51,.8);
+            text-decoration: none;  
+
+            &:hover {
+                color: #097e90;
+            }
+        }
     }
 
     &__list {
@@ -29,37 +70,6 @@
           display: flex;
         }
     }
-
-    &__socials {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin: 0 0 35px 0;
-
-        @media only screen and (max-width: 600px) {
-            display: none;
-        }
-
-            &__icon {
-                text-decoration: none;
-                text-align: center;
-                font-weight: 600;
-                font-size: 16px;
-                display: flex;
-                align-items: center;
-
-                &--size {
-                    font-size: 1.7em;
-                    color: #1dbac9;
-                }
-            }
-
-            &__label {
-                font-size: .9em;
-                padding: 5px;
-            }
-        }
-
 
     &__info {
         display: flex;
@@ -96,7 +106,7 @@
         }
 
         &__label {
-            font-size: .5em;
+            font-size: .6em;
             padding: 5px;
         }
     }

@@ -21,11 +21,11 @@ const AppNav = () => {
 
         <div className="nav__list--wrapper">
             <ul className="nav__list__ul">
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href>Home</a></li>
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href>Your Career</a></li>
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href>Core Values</a></li>
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href>Our Stories</a></li>
-                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href>Apply</a></li>
+                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Home</a></li>
+                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Your Career</a></li>
+                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Core Values</a></li>
+                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Our Stories</a></li>
+                <li className="nav__list__ul--item"><a className="nav__list__ul--link" href="https://www.roadtohire.org/">Apply</a></li>
             </ul>
         </div>
 
