@@ -2,7 +2,7 @@
 import React from "react";
 
 //CSS
-import "./ImageQuoteUnder.css";
+import "./ImageHero.css";
 
 const ImageQuoteUnder = () => {
   return (

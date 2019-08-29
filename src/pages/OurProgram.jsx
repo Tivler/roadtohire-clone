@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-import ImageQuoteUnder from '../components/feature/ImageQuoteUnderFt6/ImageQuoteUnder';
+import ImageHero from '../components/feature/ImageHero/ImageHero';
 
 class OurProgram extends React.Component {
     render () {
@@ -10,7 +10,7 @@ class OurProgram extends React.Component {
             <div className="filler">
                 Our Program
             </div>
-            <ImageQuoteUnder />
+            <ImageHero />
         </>
     )
     }
