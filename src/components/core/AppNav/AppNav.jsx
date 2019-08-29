@@ -13,10 +13,10 @@ const AppNav = () => {
                 <i className="nav__menu--icon"></i>
                 <i className="nav__menu--icon"></i> 
             </label>
-            <img className="nav__menu__logo" src="images/roadtohirelogo-white.png" alt=""/>
+            <img className="nav__menu__logo" src="images/roadtohirelogo-white.png" alt="Road To Hire Logo"/>
         </div>
 
-        <img className="nav__logo" src="images/roadtohirelogo-white.png" alt=""/>
+        <img className="nav__logo" src="images/roadtohirelogo-white.png" alt="Road To Hire Logo"/>
 
         <div className="nav__list">
             <ul className="nav__list--wrapper">
