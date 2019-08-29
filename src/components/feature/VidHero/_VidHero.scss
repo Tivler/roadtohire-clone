@@ -4,17 +4,17 @@
 
 .section {
     display: flex;
-    width: 100%;
+    width: 70%;
     align-items: center;
     flex-direction: column;
-    margin-top: 16%;
+    margin: 0 auto;
+    padding-top: 13%;
 
     &__video {
         width: 770px;
     }
 
     .content {
-        height: 500px;
         display: flex;
         flex-direction: column;
         margin: 0 8% 0 8%;
