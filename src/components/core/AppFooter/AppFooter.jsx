@@ -1,6 +1,8 @@
 import React from 'react';
 import './_AppFooter.scss';
 
+import { Link } from 'react-router-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -16,12 +18,12 @@ const Footer = () => {
         <footer className="footer">
             <nav className="footer__nav">
                 <ul className="footer__nav__list">
-                    <li className="footer__nav--item"><a className="footer__nav--link" href="https://www.roadtohire.org/">Home</a></li>
-                    <li className="footer__nav--item"><a className="footer__nav--link" href="https://www.roadtohire.org/">Your Career</a></li>
-                    <li className="footer__nav--item"><a className="footer__nav--link" href="https://www.roadtohire.org/">Core Values</a></li>
-                    <li className="footer__nav--item"><a className="footer__nav--link" href="https://www.roadtohire.org/">FAQ</a></li>
-                    <li className="footer__nav--item"><a className="footer__nav--link" href="https://www.roadtohire.org/">Apply</a></li>
-                    <li className="footer__nav--item"><a className="footer__nav--link" href="https://www.roadtohire.org/">Privacy Policy</a></li>
+                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/">Home</Link></li>
+                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/your-career">Your Career</Link></li>
+                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/corevalues">Core Values</Link></li>
+                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/FAQ">FAQ</Link></li>
+                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/apply">Apply</Link></li>
+                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/privacy-policy">Privacy Policy</Link></li>
                 </ul>
             </nav>
 

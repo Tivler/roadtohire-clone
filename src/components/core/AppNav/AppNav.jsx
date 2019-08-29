@@ -1,6 +1,9 @@
 import React from 'react';
 import './_AppNav.scss';
 
+import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 const AppNav = () => {
     return (
 
@@ -20,20 +23,20 @@ const AppNav = () => {
 
         <div className="nav__list">
             <ul className="nav__list--wrapper">
-                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Home</a></li>
-                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Your Career</a></li>
-                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Core Values</a></li>
-                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Our Stories</a></li>
-                <li className="nav__list--item"><a className="nav__list--link" href="https://www.roadtohire.org/">Apply</a></li>
+                <li className="nav__list--item"><Link className="nav__list--link" to="/">Home</Link></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/your-career">Our Program</NavLink></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/ourstories">Our Stories</NavLink></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/corevalues">Core Values</NavLink></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/apply">Apply</NavLink></li>
 
-                <li className="nav__list--item hidden"><a className="nav__list--link nav--highlight" href="https://www.roadtohire.org/">JCSU</a></li>
-                <li className="nav__list--item hidden"><a className="nav__list--link nav--highlight" href="https://www.roadtohire.org/">FAQ</a></li>
+                <li className="nav__list--item hidden"><Link className="nav__list--link nav--highlight" to="/JCSU">JCSU</Link></li>
+                <li className="nav__list--item hidden"><Link className="nav__list--link nav--highlight" to="/FAQ">FAQ</Link></li>
                
             </ul>
 
             <ul className="nav__extra">
-                <li className="nav__extra--item"><a className="nav__extra--link nav--highlight" href="https://www.roadtohire.org/">JCSU</a></li>
-                <li className="nav__extra--item"><a className="nav__extra--link nav--highlight" href="https://www.roadtohire.org/">FAQ</a></li>
+                <li className="nav__extra--item"><Link className="nav__extra--link nav--highlight" to="/JCSU">JCSU</Link></li>
+                <li className="nav__extra--item"><Link className="nav__extra--link nav--highlight" to="/FAQ">FAQ</Link></li>
             </ul>
         </div>
 
