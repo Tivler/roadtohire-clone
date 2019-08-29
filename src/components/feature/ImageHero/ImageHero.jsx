@@ -9,11 +9,7 @@ const ImageHero = (props) => {
     <div className="imageQuoteUnder-wrapper">
       <div className="imageQuoteUnder-imageContainer">
         <div className="imageQuoteUnder-ImageDiv">
-          <img
-            alt="cohort 10"
-            className="imageQuoteUnder-Image"
-            src={props.url}
-          />
+          <img alt="cohort 10" className="imageQuoteUnder-Image" src={props.url} />
           <div className="test">
             <p className="imageQuoteUnder-overlayText">{props.title}</p>
           </div>
