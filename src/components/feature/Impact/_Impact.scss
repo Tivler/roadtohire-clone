@@ -3,3 +3,36 @@ h3  {
     margin-top: 5%;
     color: #081b33;
 }
+
+.impact {
+    font-family: "Open Sans";
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--size {
+        font-size: 3em;
+        color: #1dbac9;
+    }
+}
+
+.divid {
+    margin: 0 100px 0 100px;
+}
+
+.label {
+    font-size: .6em;
+    font-weight: 700;
+    padding: 5px;
+    color:rgba(8,27,51,.8);
+}
