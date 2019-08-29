@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-import ImageQuoteUnder from '../components/feature/ImageQuoteUnderFt9/ImageQuoteUnder';
+import ImageQuoteUnder from '../components/feature/ImageQuoteUnderFt6/ImageQuoteUnder';
 
 class OurProgram extends React.Component {
     render () {
