@@ -4,7 +4,7 @@ import React from "react";
 //CSS
 import "./ImageHero.css";
 
-const ImageQuoteUnder = () => {
+const ImageHero = () => {
   return (
     <div className="imageQuoteUnder-wrapper">
       <div className="imageQuoteUnder-imageContainer">
@@ -33,4 +33,4 @@ const ImageQuoteUnder = () => {
   );
 };
 
-export default ImageQuoteUnder;
+export default ImageHero;
