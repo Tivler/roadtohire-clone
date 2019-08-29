@@ -1,16 +1,24 @@
 import React from 'react';
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Home from './pages/Home';
+
 import './App.css';
 import AppNav from './components/core/AppNav/AppNav';
 import VidHero from './components/feature/VidHero/VidHero';
 import AppFooter from './components/core/AppFooter/AppFooter';
 
+
+
 const App = () => {
   return (
     <div className="App">
-      <AppNav />
-      <VidHero />
-      <div className="filler"></div>
-      <AppFooter />
+      <Router>
+        <AppNav />
+            <Route exact path="/" component={Home} />
+        <AppFooter />
+      </Router>
     </div>
   );
 }
