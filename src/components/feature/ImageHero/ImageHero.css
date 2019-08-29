@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 
-body{
-  height: 100vh;
-}
-
-.imageQuoteUnder-wrapper {
-  height: 100vh;
-}
 .imageQuoteUnder-imageContainer {
   display: flex;
   flex-direction: column;
