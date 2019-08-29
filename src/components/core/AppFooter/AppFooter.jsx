@@ -30,8 +30,8 @@ const Footer = () => {
 
             <nav className="footer__list">
                 <div className="footer__info">
-                    <a className="footer__info__icon footer__info__icon--divider" href="https://www.roadtohire.org/"><FontAwesomeIcon className="footer__info__icon--size" icon={faPhoneAlt} /><span className="footer__info__label">(855) 502-4473</span></a>
-                    <a className="footer__info__icon" href="https://www.roadtohire.org/"><FontAwesomeIcon className="footer__info__icon--size" icon={faMapMarkerAlt} /><span className="footer__info__label">1101 Red Ventures Dr, Fort Mill, SC 29707</span></a>
+                    <p className="footer__info__icon footer__info__icon--divider"><FontAwesomeIcon className="footer__info__icon--size" icon={faPhoneAlt} /><span className="footer__info__label">(855) 502-4473</span></p>
+                    <a className="footer__info__icon" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Road+to+Hire/@35.0061496,-80.8460336,15z/data=!4m5!3m4!1s0x0:0xf9d1a2173eb72d32!8m2!3d35.0061496!4d-80.8460336"><FontAwesomeIcon className="footer__info__icon--size" icon={faMapMarkerAlt} /><span className="footer__info__label">1101 Red Ventures Dr, Fort Mill, SC 29707</span></a>
                 </div>
             </nav>
 
