@@ -1,0 +1,41 @@
+.vidcontent {
+    padding: 0em 0 4em 0;
+    font-family: 'Montserrat' , sans-serif;
+
+    &--wrapper {
+        max-width: 65em;
+        width: calc(100% - 8em);
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-weight: 700;
+        line-height: 1.5;
+        margin: 0 0 1em 0;
+        color: #2fa5a7;
+        text-transform: uppercase;
+    }
+
+    &__mission {
+        font-size: .9em;
+        margin-bottom: 2em;
+    }
+
+    &--btn {
+        box-shadow: inset 0 0 0 3px #2fa5a7;;
+        color:#2fa5a7;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        font-size: .8em;
+        font-weight: 700;
+        line-height: 3.65em;
+        padding: 0 2.25em;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            background: #ecf8fc;
+        }
+    }
+}
