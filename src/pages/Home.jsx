@@ -1,17 +1,17 @@
 import React from 'react';
 import '../App.css';
 
-import VidHero from '../components/feature/VidHero/VidHero';
-import DidYouKnow from '../components/feature/DidYouKnow/DidYouKnow';
-import Impact from '../components/feature/Impact/Impact';
+import Nav from '../components/core/Nav/Nav';
+import Hero from '../components/Hero/Hero';
+import Footer from '../components/core/Footer/Footer';
 
 class Home extends React.Component {
     render () {
         return (
         <>
-            <VidHero />
-            <DidYouKnow />
-            <Impact />
+            <Nav />
+            <Hero />
+            <Footer />
         </>
     )
     }
