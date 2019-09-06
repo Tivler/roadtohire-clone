@@ -1,10 +1,11 @@
 .vidcontent {
-    padding: 0em 0 4em 0;
+    padding: 5em 0 5em 0;
     font-family: 'Montserrat' , sans-serif;
+    background-color: #1dbac9;
 
     &--wrapper {
         max-width: 65em;
-        width: calc(100% - 8em);
+        width: calc(100% - 14em);
         margin: 0 auto;
     }
 
@@ -12,18 +13,19 @@
         font-weight: 700;
         line-height: 1.5;
         margin: 0 0 1em 0;
-        color: #1dbac9;;
+        color: #fff;
         text-transform: uppercase;
     }
 
     &__mission {
-        font-size: .9em;
+        font-size: 1em;
         margin-bottom: 2em;
+        color: #fff;
     }
 
     &--btn {
-        box-shadow: inset 0 0 0 3px #1dbac9;
-        color: #1dbac9;
+        background-color:#0c5369;
+        color: #fff;
         border-radius: 5px;
         cursor: pointer;
         display: inline-block;
@@ -35,7 +37,8 @@
         text-transform: uppercase;
 
         &:hover {
-            background: #ecf8fc;
+            background:#0c5369;
+            color: #fff;
         }
     }
 }

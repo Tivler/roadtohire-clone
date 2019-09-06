@@ -16,8 +16,8 @@ class Home extends React.Component {
             <Nav />
             <VideoHero />
             <VidContent />
-            <CardSection />
             <Info />
+            <CardSection />
             <ContentDivider />
             <Footer />
         </>
