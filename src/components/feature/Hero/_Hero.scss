@@ -1,9 +1,84 @@
-#banner {
-    background-color:#1dbac9;
-    color: rgba(8, 27, 51, 0.8);
-    padding: 13em 0 11em 0;
+.hero {
+    background: url(/images/hero1.jpg);;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 15% left;
+    background-position: center;
+    height: 620px;
     text-align: center;
+    margin-top: 320px;
+    color: #fff;
+
+    @media only screen and (min-width: 1425px) {
+        background: #1dbac9;
+        height: 420px;
+    }
+    
+    &--wrapper {
+        height: inherit;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        max-width: 1500px;
+        width: 85%;
+        margin: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+
+        @media only screen and (min-width: 1425px) {
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            text-align: left;
+            width: 65%;
+         }
+
+        @media only screen and (min-width: 1425px) {
+           justify-content: center;
+           align-items: flex-start;
+           flex-direction: column;
+           text-align: left;
+           width: 65%;
+        }
+    
+    }
+
+    &__title {
+        padding: 0 0 2em 0;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #fff;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-shadow: -1px 1px 0 rgb(53, 53, 53);
+
+        @media only screen and (min-width: 1425px) {
+            text-shadow: none;
+            padding: 0;
+            margin-bottom: 1em;
+        }
+    }
+
+    &__quote {
+        display: none;
+
+        @media only screen and (min-width: 1425px) {
+            display: block;
+            font-size: 1em;
+            text-shadow: none;
+            padding: 0;
+            margin-bottom: 1em;
+        }
+    }
+
+    &__author {
+        display: none;
+
+        @media only screen and (min-width: 1425px) {
+            display: block;
+            font-size: 1em;
+            font-weight: 700;
+            line-height: 1.5;
+            text-shadow: none;
+            padding: 0;
+        }
+    }
 }

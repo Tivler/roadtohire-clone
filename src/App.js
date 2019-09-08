@@ -3,10 +3,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
+import Program from './pages/Program';
 
 import './App.css';
-// import AppNav from './components/core/AppNav/AppNav';
-// import AppFooter from './components/core/AppFooter/AppFooter';
+import Nav from './components/core/Nav/Nav';
+import Footer from './components/core/Footer/Footer';
 
 
 
@@ -14,9 +15,10 @@ const App = () => {
   return (
     <div className="App">
       <Router>
-        {/* <AppNav /> */}
+        <Nav />
             <Route exact path="/" component={Home} />
-        {/* <AppFooter /> */}
+            <Route exact path="/our-program" component={Program} />
+        <Footer />
       </Router>
     </div>
   );

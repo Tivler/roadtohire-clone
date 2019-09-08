@@ -24,7 +24,7 @@ const Nav = () => {
         <div className="nav__list">
             <ul className="nav__list--wrapper">
                 <li className="nav__list--item"><Link className="nav__list--link" to="/">Home</Link></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/your-career">Our Program</NavLink></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/our-program">Our Program</NavLink></li>
                 <li className="nav__list--item"><NavLink className="nav__list--link" to="/ourstories">Our Stories</NavLink></li>
                 <li className="nav__list--item"><NavLink className="nav__list--link" to="/corevalues">Core Values</NavLink></li>
                 <li className="nav__list--item"><NavLink className="nav__list--link" to="/apply">Apply</NavLink></li>
