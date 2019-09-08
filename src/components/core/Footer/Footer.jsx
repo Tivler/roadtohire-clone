@@ -38,7 +38,6 @@ const Footer = () => {
 
             <div className="copyright">
                 <p className="copyright__text">Copyright &copy; Road To Hire</p>
-                <p className="copyright__updated">Last updated: August 2019</p>
             </div>
         </footer>
     </>
