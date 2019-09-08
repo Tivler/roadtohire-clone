@@ -12,7 +12,7 @@ import CardSection from '../components/feature/CardSection/CardSection';
 class Home extends React.Component {
     render () {
         return (
-        <>
+        <div className="home">
             <Nav />
             <VideoHero />
             <VidContent />
@@ -20,7 +20,7 @@ class Home extends React.Component {
             <CardSection />
             <ContentDivider />
             <Footer />
-        </>
+        </div>
     )
     }
 }

@@ -4,9 +4,16 @@
     background-color: #1dbac9;
 
     &--wrapper {
-        max-width: 65em;
-        width: calc(100% - 14em);
+        width: 65%;
         margin: 0 auto;
+
+        @media only screen and (max-width: 1325px) {
+            width: 80%;
+         }
+     
+         @media only screen and (max-width: 1025px) {
+             width: 65%;
+         }
     }
 
     &__title {
@@ -21,6 +28,7 @@
         font-size: 1em;
         margin-bottom: 2em;
         color: #fff;
+        min-width: 400px;
     }
 
     &--btn {
