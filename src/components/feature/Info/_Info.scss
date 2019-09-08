@@ -1,45 +1,40 @@
-.info--wrapper {
+.info {
     margin: 0 auto;
     padding: 7em 0 0 0;
     width: 65%;
+    max-width: 1700px;
 
     @media only screen and (max-width: 1325px) {
-       width: 80%;
+        width: 80%;
     }
 
     @media only screen and (max-width: 1025px) {
         width: 65%;
     }
-}
-
-.info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 100px;
-    justify-content: center;
-    font-family: 'Open Sans' , sans-serif;
-
-    @media only screen and (max-width: 1800px) {
-        grid-gap: 50px;
-    }
 
     @media only screen and (max-width: 1025px) {
-        grid-template-columns: 1fr;
+        min-width: 300px;
+    }
+    
+
+    &--wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+        justify-content: center;
+        font-family: 'Open Sans' , sans-serif;
+
+        @media only screen and (max-width: 1800px) {
+            grid-gap: 50px;
+        }
+
+        @media only screen and (max-width: 1025px) {
+            grid-template-columns: 1fr;
+        }
     }
 
-    @media only screen and (max-width: 700px) {
-        grid-template-columns: 500px;
-    }
 
-    @media only screen and (max-width: 600px) {
-        grid-template-columns: 375px;
-    }
-
-    @media only screen and (max-width: 500px) {
-        grid-template-columns: 300px;
-    }
-
-    &--link {
+    &__card {
         height: 500px;
         width: 100%;
         min-width: 400px;
@@ -59,60 +54,61 @@
             height: 500px;
         }
 
-        @media only screen and (max-width: 600px) {
-            min-width: 300px;
+        @media only screen and (max-width: 700px) {
+            height: 400px;
         }
 
         @media only screen and (max-width: 500px) {
             min-width: 250px;
             height: 300px;
         }
-    }
 
-    &--overlay {
-        display: flex;
-        height: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    &__title {
-        font-family: 'Open Sans' , sans-serif;
-        font-size: 5em;
-        font-weight: 700;
-        line-height: 50px;
-
-        @media only screen and (max-width: 1800px) {
-            font-size: 4em;
+        &--overlay {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        &__title {
+            font-family: 'Open Sans' , sans-serif;
+            font-size: 5em;
+            font-weight: 700;
+            line-height: 50px;
+    
+            @media only screen and (max-width: 1800px) {
+                font-size: 4em;
+            }
+    
+            @media only screen and (max-width: 600px) {
+                font-size: 3em;
+            }
+    
+            @media only screen and (max-width: 500px) {
+                font-size: 2.2em;
+            }
+        }
+    
+        &__subtitle {
+            font-family: 'Bitter' , sans-serif;
+            font-size: 5.5em;
+            font-weight: 700;
+            color:#0c5369;
+    
+            @media only screen and (max-width: 1800px) {
+                font-size: 4.5em;
+            }
+    
+            @media only screen and (max-width: 600px) {
+                font-size: 3.5em;
+            }
+    
+            @media only screen and (max-width: 500px) {
+                font-size: 2.5em;
+            }
         }
 
-        @media only screen and (max-width: 600px) {
-            font-size: 3em;
-        }
-
-        @media only screen and (max-width: 500px) {
-            font-size: 2.2em;
-        }
-    }
-
-    &__subtitle {
-        font-family: 'Bitter' , sans-serif;
-        font-size: 5.5em;
-        font-weight: 700;
-        color:#0c5369;
-
-        @media only screen and (max-width: 1800px) {
-            font-size: 4.5em;
-        }
-
-        @media only screen and (max-width: 600px) {
-            font-size: 3.5em;
-        }
-
-        @media only screen and (max-width: 500px) {
-            font-size: 2.5em;
-        }
     }
 
     &__content {

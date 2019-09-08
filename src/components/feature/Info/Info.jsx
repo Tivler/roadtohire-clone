@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 const Info = () => {
     return (
         <>
-        <section className="info--wrapper"> 
-            <div className="info">
-                <Link className="info--link" rel="noopener noreferrer" to="/" target="_blank">
-                    <div className="info--overlay">
-                        <p className="info__title">DID YOU</p>
-                        <p className="info__subtitle">KNOW?</p>
+        <section className="info"> 
+            <div className="info--wrapper">
+                <Link className="info__card" rel="noopener noreferrer" to="/" target="_blank">
+                    <div className="info__card--overlay">
+                        <p className="info__card__title">DID YOU</p>
+                        <p className="info__card__subtitle">KNOW?</p>
                     </div>
                 </Link>
 

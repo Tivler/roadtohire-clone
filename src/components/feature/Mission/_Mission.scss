@@ -1,10 +1,11 @@
-.vidcontent {
+.mission {
     padding: 5em 0 5em 0;
     font-family: 'Montserrat' , sans-serif;
     background-color: #1dbac9;
 
     &--wrapper {
         width: 65%;
+        max-width: 1700px;
         margin: 0 auto;
 
         @media only screen and (max-width: 1325px) {
@@ -14,6 +15,10 @@
          @media only screen and (max-width: 1025px) {
              width: 65%;
          }
+
+         @media only screen and (max-width: 500px) {
+            min-width: 300px;
+        }
     }
 
     &__title {
@@ -24,14 +29,18 @@
         text-transform: uppercase;
     }
 
-    &__mission {
+    &__statement {
         font-size: 1em;
         margin-bottom: 2em;
         color: #fff;
         min-width: 400px;
+
+        @media only screen and (max-width: 600px) {
+            min-width: auto;
+        }
     }
 
-    &--btn {
+    &--button {
         background-color:#0c5369;
         color: #fff;
         border-radius: 5px;

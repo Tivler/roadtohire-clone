@@ -8,11 +8,23 @@
         padding-bottom: 10%;
     }
 
+    @media only screen and (max-width: 975px) {
+        padding-top: 25%;
+    }
+
     &__video {
        width: 870px;
 
         @media only screen and (max-height: 850px) and (max-width: 1500px) {
             width: 900px;
+        }
+
+        @media only screen and (max-width: 975px) {
+            width: 600px;
+        }
+
+        @media only screen and (max-width: 650px) {
+            width: 450px;
         }
     }
 }
