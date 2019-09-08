@@ -3,14 +3,26 @@
     justify-content: center;
     padding-top: 320px;
 
-    @media only screen and (max-height: 850px) and (max-width: 1500px) {
-        padding-top: 16%;
-        padding-bottom: 10%;
+    @media only screen and (max-height: 1024px) and (max-width: 1440px) {
+        padding-bottom: 22%;
     }
 
-    @media only screen and (max-width: 975px) {
-        padding-top: 25%;
+    @media only screen and (max-height: 1024px) and (max-width: 1024px) {
+        padding-bottom: 22%;
     }
+
+    @media only screen and (max-height: 768px) and (max-width: 1024px) {
+        padding-top: 220px;
+    }
+
+    @media only screen and (max-height: 1024px) and (max-width: 1366px) {
+        padding-bottom: 25%;
+    }
+
+    @media only screen and (max-height: 1024px) and (max-width: 768px) {
+        padding-bottom: 50%;
+    }
+
 
     &__video {
        width: 870px;
