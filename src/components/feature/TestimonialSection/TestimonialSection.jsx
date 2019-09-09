@@ -1,9 +1,12 @@
 import React from 'react';
+import './_TestimonialSection.scss';
+
 import Testimonial from '../../layout/Testimonial/Testimonial';
 
 const TestimonialSection = () => {
     return (
         <>
+            <h2 className="testimonial__title">Our Stories:</h2>
             <Testimonial 
                 url="/images/marilyn.jpg"
                 name="Marilyn Romero"

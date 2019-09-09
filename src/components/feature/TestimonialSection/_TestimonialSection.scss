@@ -1,0 +1,19 @@
+.testimonial__title {
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+    line-height: 1.8;
+    margin: 0 0 1em 0;
+    color: #081b33;
+    text-transform: uppercase;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 0 2em 0;
+
+    @media only screen and (max-width: 1800px) {
+        width: 76%;
+    }
+
+    @media only screen and (max-width: 1025px) {
+        width: 70%;
+    }
+}
