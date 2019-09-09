@@ -8,7 +8,7 @@ import { faChartLine, faHandHoldingHeart, faHandshake, faTrophy } from "@fortawe
 const JCSUinfo = () => {
     return (
         <section className="jcsuinfo">
-            <h2 className="jcsuinfo__title">About Our Program:</h2>
+            <img className="jcsuinfo__logo" src="/images/RTHxJCSU.png" alt="Road To Hire | JCSU Logo"/>
             <div className="jcsucards">
                 <Values 
                     icon={faChartLine}
