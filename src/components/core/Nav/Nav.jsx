@@ -25,9 +25,9 @@ const Nav = () => {
             <ul className="nav__list--wrapper">
                 <li className="nav__list--item"><Link className="nav__list--link" to="/">Home</Link></li>
                 <li className="nav__list--item"><NavLink className="nav__list--link" to="/our-program">Our Program</NavLink></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/lol">JCSU</NavLink></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/lol">Apply</NavLink></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/lol">FAQ</NavLink></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/jcsu">JCSU</NavLink></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/FAQ">FAQ</NavLink></li>
+                <li className="nav__list--item"><a className="nav__list--link" rel="noopener noreferrer" target="_blank" href="https://boards.greenhouse.io/road2hire/jobs/1830097?gh_src=ee07e9541">Apply</a></li>
             </ul>
         </div>
 

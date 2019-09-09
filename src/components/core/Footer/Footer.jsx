@@ -20,11 +20,11 @@ const Footer = () => {
             <nav className="footer__nav">
                 <ul className="footer__nav__list">
                     <li className="footer__nav--item"><Link className="footer__nav--link" to="/">Home</Link></li>
-                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/your-career">Your Career</Link></li>
-                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/corevalues">Core Values</Link></li>
+                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/our-program">Our Program</Link></li>
+                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/jcsu">JCSU</Link></li>
                     <li className="footer__nav--item"><Link className="footer__nav--link" to="/FAQ">FAQ</Link></li>
-                    <li className="footer__nav--item"><Link className="footer__nav--link" to="/apply">Apply</Link></li>
                     <li className="footer__nav--item"><Link className="footer__nav--link" to="/privacy-policy">Privacy Policy</Link></li>
+                    <li className="footer__nav--item"><a className="footer__nav--link" rel="noopener noreferrer" target="_blank" href="https://boards.greenhouse.io/road2hire/jobs/1830097?gh_src=ee07e9541">Apply</a></li>
                 </ul>
             </nav>
 
