@@ -6,6 +6,7 @@ import ValuesSection from '../components/feature/ValuesSection/ValuesSection';
 import Nav from '../components/core/Nav/Nav';
 import Footer from '../components/core/Footer/Footer';
 import Student from '../components/feature/Student/Student';
+import CardSection from '../components/feature/CardSection/CardSection';
 
 const Program = () => {
     return (
@@ -17,6 +18,7 @@ const Program = () => {
                 author="HANNAH DALLA RIVA | SALES '18"
             />
             <ValuesSection />
+            <CardSection />
             <Student />
             <Footer />
         </>
