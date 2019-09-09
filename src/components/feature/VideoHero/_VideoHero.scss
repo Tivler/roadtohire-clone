@@ -1,10 +1,11 @@
 .mainhero {
     display: flex;
     justify-content: center;
-    padding-top: 320px;
+    padding-top: 200px;
 
     @media only screen and (max-height: 1024px) and (max-width: 1440px) {
-        padding-bottom: 22%;
+        padding-bottom: 14%;
+        padding-top: 205px;
     }
 
     @media only screen and (max-height: 1024px) and (max-width: 1024px) {

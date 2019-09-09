@@ -2,16 +2,19 @@
     background: #1dbac9;
     color: #fff;
     height: 420px;
-    margin-top: 320px;
+    margin-top: 200px;
 
-    @media only screen and (max-width: 1425px) {
+    @media only screen and (max-height: 1024px) and (max-width: 1440px) {
+        height: 320px;
+    }
+
+    @media only screen and (max-width: 1455px) {
         background: url(/images/hero1.jpg);;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 620px;
         text-align: center;
-        margin-top: 320px;
         color: #fff;
     }
     
@@ -29,14 +32,18 @@
             width: 76%;
         }
 
-        @media only screen and (max-width: 1425px) {
+        @media only screen and (max-width: 1455px) {
             height: inherit;
             display: flex;
+            align-items: flex-start;
             justify-content: flex-end;
-            align-items: flex-end;
             max-width: 1700px;
-            width: 85%;
+            width: 76%;
             margin: 0 auto;
+        }
+
+        @media only screen and (max-width: 1025px) {
+            width: 70%;
         }
     
     }
@@ -48,19 +55,19 @@
         color: #fff;
         font-size: 1.5em;
         text-transform: uppercase;
-        text-shadow: -1px 1px 0 rgb(53, 53, 53);
 
-        @media only screen and (min-width: 1425px) {
+        @media only screen and (max-width: 1455px) {
             text-shadow: none;
             padding: 0;
-            margin-bottom: 1em;
+            margin-bottom: 4em;
+            text-shadow: -1px 1px 0 rgb(53, 53, 53);
         }
     }
 
     &__quote {
         display: none;
 
-        @media only screen and (min-width: 1425px) {
+        @media only screen and (min-width: 1455px) {
             display: block;
             font-size: 1em;
             text-shadow: none;
@@ -72,7 +79,7 @@
     &__author {
         display: none;
 
-        @media only screen and (min-width: 1425px) {
+        @media only screen and (min-width: 1455px) {
             display: block;
             font-size: 1em;
             font-weight: 700;

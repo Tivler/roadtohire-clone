@@ -2,7 +2,7 @@
 
 .nav {
     color: #fff;
-    height: 320px;
+    height: 200px;
     width: 100%;
     z-index: 6;
     background-color: transparent;
@@ -76,7 +76,7 @@
     }
 
     &__logo {
-        height: 55px;
+        height: 40px;
         align-self: center;
         margin-bottom: 1.5%;
 
@@ -207,77 +207,8 @@
     &--highlight {
         color: #2fa5a7;
     }
-
-    &__extra {
-        display: flex;
-        justify-content: center;  
-        margin-top: 4%;   
-
-        @media only screen and (max-width: 900px) { 
-           display: none;
-        }
-
-        &--item {
-            align-items: center;
-            list-style-type: none;
-            text-transform: uppercase;
-            width: fit-content;
-
-            @media only screen and (max-width: 570px) { 
-                margin-top: 45%;
-                padding-right: 0px;
-            }
-
-            &:first-child {
-                padding-right: 40px;
-
-                @media only screen and (max-width: 900px) {
-                    margin: 30% 0 4% 0;
-                    padding-right: 0px;
-                }
-            }
-
-            &:nth-child(2){
-
-                @media only screen and (max-width: 900px) {
-                    margin: 0 0 4% 0;
-                    padding-right: 0px;
-                }
-            }
-        }
-
-        &--link {
-            font-size: 1em;
-            font-weight: 400;
-            line-height: 1.25;
-            letter-spacing: 0.02em;
-            text-decoration: none;  
-
-            @media only screen and (max-width: 900px) {    
-                display: none;
-                font-size: 1.8em;
-                opacity: 0;
-            }
-
-            @media only screen and (max-width: 570px) { 
-                font-size: 1.2em;
-            }
-
-            &:hover {
-                color: #097e90;
-            }
-
-        }
-    }
 }
 
-.hidden {
-    display: none;
-
-    @media only screen and (max-width: 900px) {
-        display: block;
-    }
-}
 
 #nav:checked ~ .nav__list .nav__list--wrapper .nav__list--item .nav__list--link {
     opacity: 1;

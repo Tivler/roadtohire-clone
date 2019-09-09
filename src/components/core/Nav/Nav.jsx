@@ -25,18 +25,9 @@ const Nav = () => {
             <ul className="nav__list--wrapper">
                 <li className="nav__list--item"><Link className="nav__list--link" to="/">Home</Link></li>
                 <li className="nav__list--item"><NavLink className="nav__list--link" to="/our-program">Our Program</NavLink></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/ourstories">Our Stories</NavLink></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/corevalues">Core Values</NavLink></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/apply">Apply</NavLink></li>
-
-                <li className="nav__list--item hidden"><Link className="nav__list--link nav--highlight" to="/JCSU">JCSU</Link></li>
-                <li className="nav__list--item hidden"><Link className="nav__list--link nav--highlight" to="/FAQ">FAQ</Link></li>
-               
-            </ul>
-
-            <ul className="nav__extra">
-                <li className="nav__extra--item"><Link className="nav__extra--link nav--highlight" to="/JCSU">JCSU</Link></li>
-                <li className="nav__extra--item"><Link className="nav__extra--link nav--highlight" to="/FAQ">FAQ</Link></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/lol">JCSU</NavLink></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/lol">Apply</NavLink></li>
+                <li className="nav__list--item"><NavLink className="nav__list--link" to="/lol">FAQ</NavLink></li>
             </ul>
         </div>
 
