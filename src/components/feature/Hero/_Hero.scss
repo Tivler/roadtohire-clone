@@ -1,42 +1,42 @@
 .hero {
-    background: url(/images/hero1.jpg);;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 620px;
-    text-align: center;
-    margin-top: 320px;
+    background: #1dbac9;
     color: #fff;
+    height: 420px;
+    margin-top: 320px;
 
-    @media only screen and (min-width: 1425px) {
-        background: #1dbac9;
-        height: 420px;
+    @media only screen and (max-width: 1425px) {
+        background: url(/images/hero1.jpg);;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 620px;
+        text-align: center;
+        margin-top: 320px;
+        color: #fff;
     }
     
     &--wrapper {
         height: inherit;
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        max-width: 1500px;
-        width: 85%;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        max-width: 1700px;
         margin: 0 auto;
         font-family: 'Montserrat', sans-serif;
 
-        @media only screen and (min-width: 1425px) {
-            justify-content: center;
-            align-items: flex-start;
-            flex-direction: column;
-            text-align: left;
-            width: 65%;
-         }
+        @media only screen and (max-width: 1800px) {
+            width: 76%;
+        }
 
-        @media only screen and (min-width: 1425px) {
-           justify-content: center;
-           align-items: flex-start;
-           flex-direction: column;
-           text-align: left;
-           width: 65%;
+        @media only screen and (max-width: 1425px) {
+            height: inherit;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            max-width: 1700px;
+            width: 85%;
+            margin: 0 auto;
         }
     
     }
@@ -46,7 +46,7 @@
         font-weight: 700;
         line-height: 1.5;
         color: #fff;
-        font-size: 2em;
+        font-size: 1.5em;
         text-transform: uppercase;
         text-shadow: -1px 1px 0 rgb(53, 53, 53);
 
