@@ -3,8 +3,9 @@ import './_styles.scss';
 
 import { NavLink , Link } from 'react-router-dom';
 
-const AppNav = () => {
-    function checked () {
+class AppNav extends React.Component {
+    
+    checked() {
         if (document.querySelector("#nav").checked === true) {
             document.body.style.overflow = 'hidden';
         } else {
@@ -12,34 +13,41 @@ const AppNav = () => {
         }
     }
 
-    return (
+    componentDidMount() {
+        document.body.style.overflow = 'visible';
+    }
 
-    <nav className="nav">
+    
+    render () {
+        return (
 
-        <input type="checkbox" id="nav" className="nav--hidden" onClick={checked}></input>
-        <div className="nav__menu">
-            <label htmlFor="nav" className="nav__menu--button">
-                <i className="nav__menu--icon"></i>
-                <i className="nav__menu--icon"></i>
-                <i className="nav__menu--icon"></i> 
-            </label>
-            <img className="nav__menu__logo" src="images/roadtohirelogo-white.png" alt="Road To Hire Logo"/>
-        </div>
+        <nav className="nav">
 
-        <img className="nav__logo" src="images/roadtohirelogo-white.png" alt="Road To Hire Logo"/>
+            <input type="checkbox" id="nav" className="nav--hidden" onClick={this.checked}></input>
+            <div className="nav__menu">
+                <label htmlFor="nav" className="nav__menu--button">
+                    <i className="nav__menu--icon"></i>
+                    <i className="nav__menu--icon"></i>
+                    <i className="nav__menu--icon"></i> 
+                </label>
+                <img className="nav__menu__logo" src="images/roadtohirelogo-white.png" alt="Road To Hire Logo"/>
+            </div>
 
-        <div className="nav__list">
-            <ul className="nav__list--wrapper">
-                <li className="nav__list--item"><Link className="nav__list--link" to="/">Home</Link></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/our-program">Our Program</NavLink></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/jcsu">JCSU</NavLink></li>
-                <li className="nav__list--item"><NavLink className="nav__list--link" to="/FAQ">FAQ</NavLink></li>
-            </ul>
-        </div>
+            <img className="nav__logo" src="images/roadtohirelogo-white.png" alt="Road To Hire Logo"/>
 
-    </nav>
+            <div className="nav__list">
+                <ul className="nav__list--wrapper">
+                    <li className="nav__list--item"><Link className="nav__list--link" to="/">Home</Link></li>
+                    <li className="nav__list--item"><NavLink className="nav__list--link" to="/our-program">Our Program</NavLink></li>
+                    <li className="nav__list--item"><NavLink className="nav__list--link" to="/jcsu">JCSU</NavLink></li>
+                    <li className="nav__list--item"><NavLink className="nav__list--link" to="/FAQ">FAQ</NavLink></li>
+                </ul>
+            </div>
 
-    )
+        </nav>
+
+        )
+    }
 }
 
 export default AppNav;
