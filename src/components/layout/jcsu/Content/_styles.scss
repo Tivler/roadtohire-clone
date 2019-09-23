@@ -1,0 +1,117 @@
+.jcsucontent {
+    margin: 0 auto;
+    padding: 1em 0 4em 0;
+    margin-bottom: 2em;
+    width: 60%;
+    max-width: 1700px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+    @media only screen and (max-width: 1800px) {
+        width: 76%;
+    }
+
+    @media only screen and (max-width: 1025px) {
+        width: 70%;
+    }
+
+    @media only screen and (max-width: 1025px) {
+        min-width: 300px;
+    }
+    
+    &__title {
+        font-family: 'Montserrat' , sans-serif;
+        font-weight: 700;
+        line-height: 1.8;
+        margin: 0 0 1em 0;
+        color: #081b33;
+        text-transform: uppercase;
+        width: 60%;
+        margin: 0 auto;
+        padding: 0 0 2em 0;
+
+        @media only screen and (max-width: 1800px) {
+            width: 76%;
+        }
+
+        @media only screen and (max-width: 1025px) {
+            width: 70%;
+        }
+    }
+
+    &--wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        justify-content: center;
+        font-family: 'Open Sans' , sans-serif;
+
+        @media only screen and (max-width: 1025px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__image {
+        height: inherit;
+        width: 100%;
+        min-width: 400px;
+        max-width: 1700px;
+        box-shadow: -2px 2px 40px 0 rgba(0, 0, 0, 0.18);
+        border-radius: 3px;
+        color: #fff;
+        text-decoration: none;
+        background-color: #1dbac9;
+        justify-self: flex-end;
+
+        @media only screen and (max-width: 500px) {
+            min-width: 250px;
+            height: 300px;
+        }
+
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Montserrat' , sans-serif;
+        color: #081b33;
+        min-width: 400px;
+        max-width: 700px;
+        align-items: flex-start;
+
+        @media only screen and (max-width: 600px) {
+            min-width: auto;
+        }
+
+
+        &__title {
+            font-size: 1.3em;
+            text-transform: uppercase;
+            color: #0c5369;
+            margin-bottom: .5em;
+        }
+
+        &__info {
+            font-size: .9em;
+            margin-bottom: 1em;
+        }
+    }
+
+    &--grid {
+       display: flex;
+
+        @media only screen and (max-width: 750px) {
+            flex-direction: column;
+        }
+    }
+
+    &__list {
+        font-size: .9em;
+        margin:0 0 1.5em 2em;
+        width: fit-content;
+
+        &--item {
+            width: 90%;
+        }
+    }
+}
