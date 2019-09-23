@@ -1,7 +1,7 @@
 .jcsucontent {
     margin: 0 auto;
     padding: 1em 0 4em 0;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     width: 60%;
     max-width: 1700px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -99,6 +99,10 @@
 
     &--grid {
        display: flex;
+
+        @media only screen and (max-width: 750px) {
+            flex-direction: column;
+        }
     }
 
     &__list {

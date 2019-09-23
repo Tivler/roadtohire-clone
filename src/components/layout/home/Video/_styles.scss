@@ -24,6 +24,10 @@
         padding-bottom: 50%;
     }
 
+    @media only screen and (max-width: 500px) {
+        padding: 180px 0 0 0;
+    }
+
 
     &__video {
        width: 870px;
@@ -40,7 +44,7 @@
             width: 450px;
         }
 
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 500px) {
             display: none;
         }
     }

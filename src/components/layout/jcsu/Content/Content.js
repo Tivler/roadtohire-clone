@@ -23,7 +23,6 @@ const Content = () => {
                             <li className="jcsucontent__list--item">Display Remarketing</li>
                             <li className="jcsucontent__list--item">Basic Web Design</li>
                             <li className="jcsucontent__list--item">Websites and Browsers</li>
-                            <li className="jcsucontent__list--item">Email Marketing</li>
                         </ul>
                     </div>
                 </div>
