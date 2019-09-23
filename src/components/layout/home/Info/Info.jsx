@@ -8,7 +8,7 @@ const Info = () => {
         <>
         <section className="info"> 
             <div className="info--wrapper">
-                <Link className="info__card" rel="noopener noreferrer" to="/" target="_blank">
+                <Link className="info__card" rel="noopener noreferrer" to="/our-program" target="_blank">
                     <div className="info__card--overlay">
                         <p className="info__card__title">DID YOU</p>
                         <p className="info__card__subtitle">KNOW?</p>
