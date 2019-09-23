@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -6,8 +7,6 @@ import Home from './pages/Home';
 import Program from './pages/Program';
 import JCSU from './pages/JCSU';
 import FAQ from './pages/FAQ';
-
-import './App.css';
 
 const App = () => {
   return (
