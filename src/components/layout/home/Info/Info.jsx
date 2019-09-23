@@ -8,7 +8,7 @@ const Info = () => {
         <>
         <section className="info"> 
             <div className="info--wrapper">
-                <Link className="info__card" rel="noopener noreferrer" to="/our-program">
+                <Link className="info__card" rel="noopener noreferrer" onClick={() => window.scrollTo(0,0)} to="/our-program">
                     <div className="info__card--overlay">
                         <p className="info__card__title">DID YOU</p>
                         <p className="info__card__subtitle">KNOW?</p>
